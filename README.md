@@ -129,7 +129,7 @@ public class ArabicConverter {
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class UserInterface {
+public class Main {
     private static final Scanner scanner = new Scanner(System.in);
     private static final RomanConverter romanConverter = new RomanConverter();
     private static final ArabicConverter arabicConverter = new ArabicConverter();
@@ -197,8 +197,4 @@ Sinta-se à vontade para contribuir com melhorias para este projeto. Para isso, 
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Esperamos que este projeto seja útil para entender melhor a conversão entre números romanos e arábicos utilizando Java e boas práticas de programação orientada a objetos.
 ```
